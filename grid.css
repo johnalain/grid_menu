@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 33%  33% 33%; */
+    /* grid-template-columns: 100px  100px 100px; */
+    /* grid-template-columns: 2fr  2fr; */
+    grid-template-columns:repeat(2, 2fr);
+    /*we can use repeat function repeat(number of cols,dimension of column*/
+    /* grid-template-rows: repeat(3, 200px); */
+    grid-auto-rows: minmax(200px,auto);
+ } 
+.box{
+    background: cornflowerblue;
+    text-align: center;
+}
+
